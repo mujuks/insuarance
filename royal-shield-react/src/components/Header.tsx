@@ -90,7 +90,7 @@ export default function Header(): React.JSX.Element {
               className={({ isActive }): string =>
                 `whitespace-nowrap rounded-full px-2.5 py-2 text-sm font-semibold transition xl:px-3 ${
                   isActive
-                    ? "bg-royal-soft text-royal"
+                    ? "bg-royal-soft text-royal shadow-[inset_0_-2px_0_var(--color-gold)]"
                     : "text-ink2 hover:bg-royal-soft hover:text-royal"
                 }`
               }
@@ -146,7 +146,7 @@ export default function Header(): React.JSX.Element {
                 end={link.end ?? false}
                 className={({ isActive }): string =>
                   `rounded-lg px-3 py-2.5 font-semibold transition ${
-                    isActive ? "bg-royal-soft text-royal-dark" : "text-ink2 hover:bg-royal-mist"
+                    isActive ? "border-l-2 border-gold bg-royal-soft text-royal-dark" : "border-l-2 border-transparent text-ink2 hover:bg-royal-mist"
                   }`
                 }
               >
