@@ -24,7 +24,7 @@ export default function Terms() {
           </div>
           <h1 className="mb-3 text-[clamp(1.9rem,4vw,2.8rem)] text-white">Terms &amp; Conditions</h1>
           <p className="max-w-2xl text-white/80">
-            The rules governing your use of the Royal Shield Insurance Agency online quotation platform and our agency
+            The rules governing your use of the Lipa Insurance Agency online quotation platform and our agency
             services.
           </p>
         </div>
@@ -55,8 +55,8 @@ export default function Terms() {
             <div className="prose-rs">
               <h2 id="intro" className="mt-8 mb-3 text-2xl scroll-mt-28">1. Introduction</h2>
               <p className="mb-4">
-                Welcome to Royal Shield Insurance Agency ("Royal Shield", "we", "us"). These Terms and Conditions
-                ("Terms") form a binding agreement between you and Royal Shield governing your use of our website,
+                Welcome to Lipa Insurance Agency ("Lipa Insurance", "we", "us"). These Terms and Conditions
+                ("Terms") form a binding agreement between you and Lipa Insurance governing your use of our website,
                 online quotation engine and related services (together, the "Platform").
               </p>
               <p className="mb-4">
@@ -68,7 +68,7 @@ export default function Terms() {
 
               <h2 id="who" className="mt-8 mb-3 text-2xl scroll-mt-28">2. Who we are</h2>
               <p className="mb-4">
-                Royal Shield Insurance Agency is based in Nairobi, Kenya and provides insurance agency services. Policies are issued by insurers, whose terms govern the cover provided.
+                Lipa Insurance Agency is based in Nairobi, Kenya and provides insurance agency services. Policies are issued by insurers, whose terms govern the cover provided.
               </p>
               <ul className="mb-4 list-disc space-y-1.5 pl-6 text-ink2">
                 <li>Registered office: Nairobi, Kenya</li>
@@ -179,8 +179,8 @@ export default function Terms() {
 
               <h2 id="ip" className="mt-8 mb-3 text-2xl scroll-mt-28">8. Intellectual property</h2>
               <p className="mb-4">
-                All content on the Platform — including the Royal Shield name, shield device, logos, copy, rating logic
-                and design — is the property of Royal Shield Insurance Agency or its licensors and is protected by
+                All content on the Platform — including the Lipa Insurance name, shield device, logos, copy, rating logic
+                and design — is the property of Lipa Insurance Agency or its licensors and is protected by
                 applicable intellectual property law. You may view and print content for personal, non-commercial use
                 only. Reproduction or redistribution requires our prior written consent.
               </p>
@@ -189,7 +189,7 @@ export default function Terms() {
               <p className="mb-4">We take complaints seriously. If you are dissatisfied with our service:</p>
               <ul className="mb-4 list-disc space-y-1.5 pl-6 text-ink2">
                 <li>
-                  <b>Step 1</b> — Write to the Compliance Officer, Royal Shield Insurance Agency,
+                  <b>Step 1</b> — Write to the Compliance Officer, Lipa Insurance Agency,
                   Nairobi, Kenya, or email complaints@royalshield.co.ke. We acknowledge within{" "}
                   <b>3 working days</b> and resolve within <b>14 working days</b>.
                 </li>
@@ -219,7 +219,7 @@ export default function Terms() {
 
               <div className="decl-box mt-10">
                 <b>Contact for anything in these Terms</b>
-                Compliance Officer · Royal Shield Insurance Agency · Nairobi, Kenya ·{" "}
+                Compliance Officer · Lipa Insurance Agency · Nairobi, Kenya ·{" "}
                 <a href="mailto:compliance@royalshield.co.ke" className="text-royal">
                   compliance@royalshield.co.ke
                 </a>{" "}

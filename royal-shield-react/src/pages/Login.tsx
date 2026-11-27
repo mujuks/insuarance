@@ -98,7 +98,7 @@ export default function Login() {
         />
         <div className="absolute inset-0 bg-gradient-to-br from-royal-deep/85 via-royal-deep/70 to-maroon/40" />
         <div className="relative flex h-full flex-col justify-between p-12 text-white">
-          <LogoFull className="h-12 logo-lockup-light" />
+          <LogoFull className="h-12" />
           <div>
             <h2 className="mb-3 text-3xl text-white">Your cover, one dashboard.</h2>
             <p className="max-w-md text-white/85">
@@ -110,7 +110,7 @@ export default function Login() {
               <span>✓ Agency support</span>
             </div>
           </div>
-          <p className="text-xs text-white/50">Royal Shield Insurance Agency</p>
+          <p className="text-xs text-white/50">Lipa Insurance Agency</p>
         </div>
       </div>
 
@@ -199,7 +199,7 @@ export default function Login() {
               </>
             ) : mode === "signin" ? (
               <>
-                New to Royal Shield?{" "}
+                New to Lipa Insurance?{" "}
                 <button type="button" className="font-bold text-royal" onClick={switchMode}>
                   Create an account
                 </button>

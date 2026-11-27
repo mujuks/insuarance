@@ -1,4 +1,4 @@
-/* Royal Shield — Premium engine (TypeScript port) */
+/* Lipa Insurance — Premium engine (TypeScript port) */
 
 export interface RateLine {
   label: string;

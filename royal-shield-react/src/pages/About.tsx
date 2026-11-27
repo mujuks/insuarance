@@ -32,7 +32,7 @@ export default function About(): React.JSX.Element {
         />
         <div className="container-x relative">
           <p className="mb-4 text-sm font-bold tracking-[0.12em] text-white/75 uppercase">
-            About Royal Shield
+            About Lipa Insurance
           </p>
           <h1 className="mb-5 max-w-3xl text-[clamp(2.2rem,5vw,3.8rem)] text-white">
             Local knowledge. Clearer insurance choices.

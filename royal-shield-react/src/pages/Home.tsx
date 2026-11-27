@@ -39,7 +39,7 @@ export default function Home(): React.JSX.Element {
           <div className="home-hero-image">
             <img src="/images/hero-kenyan-advisor.jpg" alt="Black businesswoman working in a modern office" fetchPriority="high" />
             <div className="home-image-caption">
-              <span>Royal Shield Insurance Agency</span>
+              <span>Lipa Insurance Agency</span>
               <b>Local support. Cover for every stage.</b>
             </div>
           </div>
@@ -153,7 +153,7 @@ export default function Home(): React.JSX.Element {
             </div>
           </div>
           <div>
-            <span className="chip chip-blue mb-3">Why Royal Shield</span>
+            <span className="chip chip-blue mb-3">Why Lipa Insurance</span>
             <h2 className="text-[clamp(1.7rem,3.2vw,2.5rem)]">
               An agency here to help you make informed choices
             </h2>

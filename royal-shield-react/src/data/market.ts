@@ -84,7 +84,7 @@ export const CLAIM_STEPS: readonly ClaimStep[] = [
   },
   {
     title: "We open the claim for you",
-    body: "Royal Shield lodges the claim, records the reference number and tells you exactly which documents are outstanding, so you are not guessing what the loss adjuster wants next.",
+    body: "Lipa Insurance lodges the claim, records the reference number and tells you exactly which documents are outstanding, so you are not guessing what the loss adjuster wants next.",
   },
   {
     title: "Submit your documents",

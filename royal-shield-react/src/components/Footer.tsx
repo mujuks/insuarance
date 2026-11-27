@@ -44,7 +44,7 @@ export default function Footer({ compact = false }: FooterProps): React.JSX.Elem
     return (
       <footer className="border-t border-line bg-royal-deep text-white/80">
         <div className="container-x flex flex-wrap items-center justify-between gap-3 py-5 text-sm">
-          <span>© {year} Royal Shield Insurance Agency</span>
+          <span>© {year} Lipa Insurance Agency</span>
           <span className="flex gap-5">
             <Link to="/terms" className="text-white/70 hover:text-white">
               Terms
@@ -70,7 +70,7 @@ export default function Footer({ compact = false }: FooterProps): React.JSX.Elem
       <div className="container-x">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <div className="mb-3"><LogoFull className="h-12 logo-lockup-light" /></div>
+            <div className="mb-3"><LogoFull className="h-12" /></div>
             <p className="text-sm leading-relaxed">
               A Nairobi-based insurance agency supporting individuals and businesses with cover options for vehicles, homes, health, life and business risks.
             </p>
@@ -179,7 +179,7 @@ export default function Footer({ compact = false }: FooterProps): React.JSX.Elem
         </div>
 
         <div className="mt-8 flex flex-wrap items-center justify-between gap-3 border-t border-white/15 pt-6 text-xs">
-          <span>© {year} Royal Shield Insurance Agency. All rights reserved.</span>
+          <span>© {year} Lipa Insurance Agency. All rights reserved.</span>
           <span className="flex gap-5">
             <Link to="/terms" className="hover:text-white">
               Privacy & Terms

@@ -1,26 +1,29 @@
 @import "tailwindcss";
 
 @theme {
-  --color-royal: #4169e1;
-  --color-royal-dark: #2c4fc4;
-  --color-royal-deep: #16255e;
-  --color-royal-soft: #e4ebff;
-  --color-royal-mist: #f1f5ff;
-  --color-maroon: #800000;
-  --color-maroon-dark: #660000;
-  --color-maroon-soft: #f7eaea;
-  --color-ink: #141c33;
-  --color-ink2: #3b4767;
-  --color-muted: #6b7695;
-  --color-line: #dbe2f2;
-  --color-linesoft: #ecf0fa;
+  --color-royal: #85001d;
+  --color-royal-dark: #680016;
+  --color-royal-deep: #3b000d;
+  --color-royal-soft: #f8e9ec;
+  --color-royal-mist: #fff8f3;
+  --color-maroon: #85001d;
+  --color-maroon-dark: #680016;
+  --color-maroon-soft: #f8e9ec;
+  --color-gold: #d2a11f;
+  --color-gold-dark: #b78508;
+  --color-gold-soft: #fff4d7;
+  --color-ink: #24151a;
+  --color-ink2: #514349;
+  --color-muted: #786d71;
+  --color-line: #e7dcd8;
+  --color-linesoft: #f1eae6;
   --color-success: #0f7b6c;
   --color-danger: #b91c1c;
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
-/* Brand gradients — royal blue is the dominant field, maroon is the accent */
+/* Lipa Insurance brand palette — burgundy and gold */
 @layer components {
   .grad-royal {
     background-image: linear-gradient(
@@ -118,11 +121,11 @@ body {
   }
   .btn-primary:hover { background: var(--color-royal-dark); color: #fff; }
   .btn-maroon {
-    background: var(--color-maroon);
-    color: #fff;
-    box-shadow: 0 5px 14px rgba(110, 41, 54, 0.18);
+    background: var(--color-gold);
+    color: var(--color-royal-deep);
+    box-shadow: 0 5px 14px rgba(110, 76, 12, 0.2);
   }
-  .btn-maroon:hover { background: var(--color-maroon-dark); color: #fff; }
+  .btn-maroon:hover { background: var(--color-gold-dark); color: #fff; }
   .btn-outline {
     background: transparent;
     color: var(--color-ink);
@@ -827,7 +830,7 @@ body {
 
 /* Corporate homepage hero inspired by the supplied reference */
 @layer components {
-  .topbar { background: var(--color-royal-deep); }
+  .topbar { background: var(--color-royal-deep); border-bottom: 2px solid var(--color-gold); }
 
   .home-hero {
     position: relative;
@@ -856,7 +859,7 @@ body {
     align-items: center;
     gap: 0.8rem;
     margin-bottom: 1.15rem;
-    color: #ffc9c9;
+    color: #f4d58a;
     font-size: 0.82rem;
     font-weight: 800;
     letter-spacing: 0.14em;
@@ -867,7 +870,7 @@ body {
     width: 38px;
     height: 3px;
     border-radius: 999px;
-    background: var(--color-maroon);
+    background: var(--color-gold);
   }
   .home-hero-copy h1 {
     max-width: 660px;
@@ -957,50 +960,14 @@ body {
   .home-image-caption { right: 1.25rem; bottom: 1.25rem; }
 }
 
-/* Logo lockup uses the supplied crest art beside a crisp responsive wordmark */
-.logo-lockup {
-  display: inline-flex;
-  width: max-content;
-  max-width: 100%;
-  align-items: center;
-  gap: .5rem;
-  vertical-align: middle;
-  text-decoration: none;
-}
-.logo-lockup-image {
+/* Supplied Lipa Insurance wordmark */
+.lipa-logo {
   display: block;
-  height: 100%;
-  aspect-ratio: 1;
-  flex: none;
-  object-fit: cover;
-  border: 1px solid rgba(185,149,81,.82);
-  border-radius: 8px;
+  max-width: min(100%, 270px);
+  object-fit: contain;
+  border-radius: 5px;
+  background: #fff;
 }
-.logo-lockup-type {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: .18rem;
-  color: #16255e;
-  white-space: nowrap;
-  line-height: 1;
-}
-.logo-lockup-type b {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: .015em;
-}
-.logo-lockup-type small {
-  color: #800000;
-  font-size: 7px;
-  font-weight: 800;
-  letter-spacing: 1.35px;
-}
-.logo-lockup-light .logo-lockup-type { color: #fff2cb; }
-.logo-lockup-light .logo-lockup-type small { color: #e2c47e; }
 @media (max-width: 380px) {
-  .logo-lockup { height: 28px; gap: .35rem; }
-  .logo-lockup-type b { font-size: 12px; }
-  .logo-lockup-type small { font-size: 6px; letter-spacing: 1px; }
+  .lipa-logo { max-width: min(100%, 220px); }
 }

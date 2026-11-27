@@ -9,7 +9,7 @@ export interface Cover {
 }
 
 /**
- * Lines of business Royal Shield arranges. Descriptions are written against the
+ * Lines of business Lipa Insurance arranges. Descriptions are written against the
  * Insurance (Motor Vehicles Third Party Risks) Act (Cap. 405), the Insurance Act
  * (Cap. 487) and IRA's published standardised policies.
  */

@@ -77,8 +77,8 @@ export default function Header(): React.JSX.Element {
       </div>
 
       <div className="container-x flex h-[68px] items-center justify-between gap-3 sm:h-[72px] sm:gap-5">
-        <Link to="/" className="flex shrink-0 items-center gap-2.5" aria-label="Royal Shield Insurance Agency home">
-          <LogoFull className="h-8 w-auto sm:h-11" />
+        <Link to="/" className="flex shrink-0 items-center gap-2.5" aria-label="Lipa Insurance Agency home">
+          <LogoFull className="h-10 w-auto sm:h-12" />
         </Link>
 
         <nav className="hidden flex-1 items-center justify-center gap-0.5 lg:flex" aria-label="Primary">
