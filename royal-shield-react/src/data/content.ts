@@ -23,33 +23,33 @@ export const STEPS: readonly Step[] = [
   },
   {
     title: "Save, print or bind",
-    body: "Your quotation is stored in My Quotes, valid 30 days. Email it to yourself or let your broker place it.",
+    body: "Your quotation is stored in My Quotes, valid 30 days. Email it to yourself or contact our agency to discuss the next steps.",
   },
   {
     title: "We handle the paperwork",
-    body: "Logbook copies, valuation letters and proposal forms — your named broker chases every underwriter desk.",
+    body: "Logbook copies, valuation letters and proposal forms — our agency team can guide you through the paperwork.",
   },
   {
     title: "Claims, we stand by you",
-    body: "One number to call. We lobby the insurer, track your reserve and escalate until your claim is settled.",
+    body: "One number to call. We can help you understand the claims process and contact your insurer.",
   },
 ] as const;
 
 export const WHY_US: readonly WhyItem[] = [
   {
-    title: "Independent market access",
-    body: "We place risk with 12+ IRA-regulated insurers and negotiate terms on your behalf.",
+    title: "Practical cover guidance",
+    body: "We help you understand available cover options and connect with insurers for policy applications.",
   },
   {
     title: "Transparent indicative pricing",
     body: "Every quotation shows the rating factors — loadings, discounts, taxes — line by line.",
   },
   {
-    title: "Named broker, direct line",
-    body: "You are assigned a licensed broker who knows your file — not a ticket queue.",
+    title: "Agency support, direct line",
+    body: "You are assigned an agency representative who knows your file — not a ticket queue.",
   },
   {
-    title: "Claims advocacy",
-    body: "We prepare your proof of loss, track the reserve and escalate until settlement.",
+    title: "Claims support",
+    body: "We can help you understand the claims process and contact your insurer.",
   },
 ] as const;

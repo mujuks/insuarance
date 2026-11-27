@@ -19,7 +19,7 @@ export const MARKET_STATS: readonly MarketStat[] = [
   { value: "KES 8,675", label: "Average premium paid per person", note: "Up from KES 7,573 in 2024" },
   { value: "59", label: "Licensed insurers in the market", note: "36 general · 23 long-term" },
   { value: "KES 93.2B", label: "Medical insurance premiums — largest class", note: "+22.3% year on year" },
-  { value: "< 35%", label: "Share of premiums placed through brokers", note: "Room for independent advice" },
+  { value: "4", label: "Core service areas", note: "Auto, home, life and business" },
 ] as const;
 
 export const MARKET_FACTS: readonly { readonly title: string; readonly body: string }[] = [
@@ -44,8 +44,8 @@ export const MARKET_FACTS: readonly { readonly title: string; readonly body: str
     body: "IRA publishes model policies — burglary, public liability, goods in transit, money, fidelity guarantee, personal accident — so you can compare like with like instead of marketing copy.",
   },
   {
-    title: "Buying from a broker costs you nothing extra",
-    body: "Brokers are paid commission by the insurer after placement. In a market where intermediaries place under a third of all premiums, independent advice is still the exception rather than the rule.",
+    title: "Understand the policy before you buy",
+    body: "Review benefits, limits, excesses, exclusions and the claims process. Ask the insurer or agency to explain any terms you are unsure about.",
   },
 ] as const;
 
@@ -80,7 +80,7 @@ export interface ClaimStep {
 export const CLAIM_STEPS: readonly ClaimStep[] = [
   {
     title: "Report the incident immediately",
-    body: "Call the insurer's 24-hour line and your broker the same day. On a road accident, also obtain an abstract or OB number from the nearest police station — most wordings require notification within 24 to 48 hours.",
+    body: "Call the insurer's 24-hour line and our agency the same day. On a road accident, also obtain an abstract or OB number from the nearest police station — most wordings require notification within 24 to 48 hours.",
   },
   {
     title: "We open the claim for you",
@@ -153,7 +153,7 @@ export const CLAIM_CONTACTS: readonly {
   readonly value: string;
   readonly href: string;
 }[] = [
-  { label: "Broker claims desk", value: "+254 700 000 000", href: "tel:+254700000000" },
-  { label: "WhatsApp claims line", value: "Message us", href: "https://wa.me/254700000000" },
+  { label: "Agency claims support", value: "+254 712 661 514", href: "tel:+254712661514" },
+  { label: "WhatsApp claims line", value: "Message us", href: "https://wa.me/254712661514" },
   { label: "Email", value: "claims@royalshield.co.ke", href: "mailto:claims@royalshield.co.ke" },
 ] as const;

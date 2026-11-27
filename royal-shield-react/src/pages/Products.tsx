@@ -86,7 +86,7 @@ export default function Products(): React.JSX.Element {
               {rest.length} more risks we place for you
             </h2>
             <p className="mb-0 max-w-2xl text-muted">
-              Brokered rather than instantly rated — send us the basics and a named broker comes back
+              For covers that need a tailored quotation — send us the basics and our agency team responds
               with an itemised, comparable quotation.
             </p>
           </div>

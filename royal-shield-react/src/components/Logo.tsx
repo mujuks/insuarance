@@ -1,7 +1,11 @@
 export function LogoFull({ className = "h-11" }: { className?: string }) {
-  return <img src="/images/logo-full.svg" alt="Royal Shield Brokers" className={className} />;
-}
-
-export function LogoMark({ className = "h-10 w-10" }: { className?: string }) {
-  return <img src="/images/logo-mark.svg" alt="" className={className} />;
+  return (
+    <span className={`logo-lockup ${className}`} role="img" aria-label="Royal Shield Insurance Agency">
+      <img src="/images/royal-shield-crest.jpeg" alt="" className="logo-lockup-image" />
+      <span className="logo-lockup-type">
+        <b>Royal Shield</b>
+        <small>INSURANCE AGENCY</small>
+      </span>
+    </span>
+  );
 }

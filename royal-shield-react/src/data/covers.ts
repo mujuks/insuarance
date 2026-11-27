@@ -57,6 +57,14 @@ export const COVERS: readonly Cover[] = [
     cta: "Assess my exposure",
   },
   {
+    id: "business",
+    icon: "🏢",
+    title: "Business Insurance",
+    body: "Cover for business property and operations, with options such as property protection, general liability and workers’ compensation subject to insurer terms.",
+    to: "/contact",
+    cta: "Discuss business cover",
+  },
+  {
     id: "travel",
     icon: "✈️",
     title: "Travel",

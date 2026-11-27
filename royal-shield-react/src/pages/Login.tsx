@@ -98,19 +98,19 @@ export default function Login() {
         />
         <div className="absolute inset-0 bg-gradient-to-br from-royal-deep/85 via-royal-deep/70 to-maroon/40" />
         <div className="relative flex h-full flex-col justify-between p-12 text-white">
-          <LogoFull className="h-12 brightness-0 invert" />
+          <LogoFull className="h-12 logo-lockup-light" />
           <div>
             <h2 className="mb-3 text-3xl text-white">Your cover, one dashboard.</h2>
             <p className="max-w-md text-white/85">
-              Save quotations, track renewals and message your named broker — all in one secure client portal.
+              Save quotations, track renewals and message your agency representative — all in one secure client portal.
             </p>
             <div className="mt-6 flex gap-6 text-sm text-white/70">
               <span>✓ 30-day quote validity</span>
               <span>✓ Full premium breakdown</span>
-              <span>✓ IRA-licensed brokers</span>
+              <span>✓ Agency support</span>
             </div>
           </div>
-          <p className="text-xs text-white/50">Royal Shield Brokers Ltd · IRA Licence IB/2026/0148</p>
+          <p className="text-xs text-white/50">Royal Shield Insurance Agency</p>
         </div>
       </div>
 

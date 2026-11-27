@@ -12,17 +12,18 @@ interface NavLinkItem {
 const NAV_LINKS: readonly NavLinkItem[] = [
   { to: "/", label: "Home", end: true },
   { to: "/about", label: "About us" },
-  { to: "/products", label: "Products" },
+  { to: "/products", label: "Services" },
   { to: "/claims", label: "Claims" },
   { to: "/how-it-works", label: "How it works" },
   { to: "/dashboard", label: "My Quotes" },
+  { to: "/contact", label: "Contact" },
 ] as const;
 
 const SOCIALS: readonly { readonly label: string; readonly short: string; readonly href: string }[] = [
   { label: "Facebook", short: "f", href: "https://www.facebook.com/" },
   { label: "Instagram", short: "ig", href: "https://www.instagram.com/" },
   { label: "LinkedIn", short: "in", href: "https://www.linkedin.com/" },
-  { label: "WhatsApp", short: "wa", href: "https://wa.me/254700000000" },
+  { label: "WhatsApp", short: "wa", href: "https://wa.me/254712661514" },
 ] as const;
 
 export default function Header(): React.JSX.Element {
@@ -53,11 +54,11 @@ export default function Header(): React.JSX.Element {
       <div className={`${scrolled ? "hidden" : "hidden md:block"} topbar`}>
         <div className="container-x flex h-9 items-center justify-between gap-4">
           <div className="flex items-center gap-5">
-            <span className="opacity-90">📍 Shield House, Kimathi Street, Nairobi</span>
+            <span className="opacity-90">📍 Nairobi, Kenya</span>
             <a href="mailto:quotes@royalshield.co.ke">quotes@royalshield.co.ke</a>
           </div>
           <div className="flex items-center gap-5">
-            <a href="tel:+254700000000">📞 +254 700 000 000</a>
+            <a href="tel:+254712661514">📞 +254 712 661 514</a>
             <span className="tb-social">
               {SOCIALS.map((social) => (
                 <a
@@ -76,8 +77,8 @@ export default function Header(): React.JSX.Element {
       </div>
 
       <div className="container-x flex h-[68px] items-center justify-between gap-3 sm:h-[72px] sm:gap-5">
-        <Link to="/" className="flex shrink-0 items-center gap-2.5" aria-label="Royal Shield Brokers home">
-          <LogoFull className="h-10 w-auto sm:h-11" />
+        <Link to="/" className="flex shrink-0 items-center gap-2.5" aria-label="Royal Shield Insurance Agency home">
+          <LogoFull className="h-8 w-auto sm:h-11" />
         </Link>
 
         <nav className="hidden flex-1 items-center justify-center gap-0.5 lg:flex" aria-label="Primary">
@@ -109,7 +110,7 @@ export default function Header(): React.JSX.Element {
         </div>
 
         <div className="flex shrink-0 items-center gap-2 lg:hidden">
-          <Link to="/quote" className="btn btn-maroon btn-sm">
+          <Link to="/quote" className="btn btn-maroon btn-sm mobile-quote-btn">
             Get a Quote
           </Link>
           <button

@@ -14,8 +14,8 @@ export default function HowItWorks() {
           </div>
           <h1 className="mb-3 text-[clamp(1.9rem,4vw,2.8rem)] text-white">From question to quotation</h1>
           <p className="max-w-2xl text-white/80">
-            Our engine prices your risk instantly using the same rating factors underwriters use — then a named broker
-            reviews it before you bind.
+            Our tool provides an indicative price. Contact our agency to discuss the details; the insurer confirms
+            final terms before cover begins.
           </p>
         </div>
       </section>
@@ -66,10 +66,10 @@ export default function HowItWorks() {
 
             <div className="rounded-3xl bg-gradient-to-br from-royal-deep to-royal p-8 text-white">
               <span className="chip mb-3 bg-white/15 text-white">After you quote</span>
-              <h2 className="mb-3 text-2xl text-white">A named broker takes over</h2>
+              <h2 className="mb-3 text-2xl text-white">Agency support for next steps</h2>
               <p className="mb-5 text-white/85">
-                Once you are happy with the indicative price, a licensed broker confirms terms with the underwriter,
-                collects proposal documents and places your cover.
+                If the indicative price suits you, our agency can guide you through the application. The insurer
+                reviews your details and confirms the final policy terms.
               </p>
               <ul className="flex flex-col gap-2.5 text-sm text-white/90">
                 <li>· Logbook and valuation follow-up</li>

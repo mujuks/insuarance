@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { LogoFull } from "./Logo";
 
 interface FooterProps {
   readonly compact?: boolean;
@@ -43,7 +44,7 @@ export default function Footer({ compact = false }: FooterProps): React.JSX.Elem
     return (
       <footer className="border-t border-line bg-royal-deep text-white/80">
         <div className="container-x flex flex-wrap items-center justify-between gap-3 py-5 text-sm">
-          <span>© {year} Royal Shield Brokers Ltd · IRA Lic. IB/2026/0148</span>
+          <span>© {year} Royal Shield Insurance Agency</span>
           <span className="flex gap-5">
             <Link to="/terms" className="text-white/70 hover:text-white">
               Terms
@@ -69,20 +70,10 @@ export default function Footer({ compact = false }: FooterProps): React.JSX.Elem
       <div className="container-x">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <div className="mb-3">
-              <div className="text-lg font-extrabold tracking-wide text-white">ROYAL SHIELD</div>
-              <div className="text-[0.7rem] font-bold tracking-[0.34em] text-[#ffb3b3] uppercase">
-                Brokers
-              </div>
-            </div>
+            <div className="mb-3"><LogoFull className="h-12 logo-lockup-light" /></div>
             <p className="text-sm leading-relaxed">
-              An independent, IRA-licensed insurance brokerage headquartered in Nairobi — placing
-              motor, health and commercial risk across East Africa since 2015.
+              A Nairobi-based insurance agency supporting individuals and businesses with cover options for vehicles, homes, health, life and business risks.
             </p>
-            <div className="mt-4 rounded-xl border border-white/20 bg-maroon/85 p-3.5 text-xs leading-relaxed text-white">
-              <b className="block text-white">Insurance Regulatory Authority</b>
-              Licence No. IB/2026/0148 · Member, Association of Insurance Brokers of Kenya
-            </div>
             <div className="mt-4 flex gap-2">
               {SOCIALS.map((social) => (
                 <a
@@ -135,14 +126,13 @@ export default function Footer({ compact = false }: FooterProps): React.JSX.Elem
             </h4>
             <ul className="flex flex-col gap-2.5 text-sm">
               <li>
-                📍 4th Floor, Shield House,
-                <br />
-                Kimathi Street, Nairobi
+                📍
+                Nairobi, Kenya
               </li>
               <li>
                 📞{" "}
-                <a href="tel:+254700000000" className="hover:text-white">
-                  +254 700 000 000
+                <a href="tel:+254712661514" className="hover:text-white">
+                  +254 712 661 514
                 </a>
               </li>
               <li>
@@ -153,7 +143,7 @@ export default function Footer({ compact = false }: FooterProps): React.JSX.Elem
               </li>
               <li>
                 💬{" "}
-                <a href="https://wa.me/254700000000" className="hover:text-white">
+                <a href="https://wa.me/254712661514" className="hover:text-white">
                   WhatsApp us
                 </a>
               </li>
@@ -189,7 +179,7 @@ export default function Footer({ compact = false }: FooterProps): React.JSX.Elem
         </div>
 
         <div className="mt-8 flex flex-wrap items-center justify-between gap-3 border-t border-white/15 pt-6 text-xs">
-          <span>© {year} Royal Shield Brokers Ltd. All rights reserved.</span>
+          <span>© {year} Royal Shield Insurance Agency. All rights reserved.</span>
           <span className="flex gap-5">
             <Link to="/terms" className="hover:text-white">
               Privacy & Terms

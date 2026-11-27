@@ -13,11 +13,11 @@ export default function Claims(): React.JSX.Element {
             / Claims
           </div>
           <h1 className="mb-3 max-w-3xl text-[clamp(1.9rem,4vw,2.8rem)] text-white">
-            A claim is where a broker earns its fee
+            Support when you need to make a claim
           </h1>
           <p className="max-w-2xl text-white/80">
-            We lodge the claim, chase the adjuster and escalate on your behalf. Here is exactly
-            what happens, what you need to hand over and where to escalate if you disagree.
+            We can help you understand the claims process and contact your insurer. Here is what
+            to prepare and where to escalate if you disagree with a decision.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <a href="#report" className="btn btn-white btn-lg">
@@ -87,8 +87,8 @@ export default function Claims(): React.JSX.Element {
                 ))}
               </ul>
               <p className="mb-0 text-xs leading-relaxed text-muted">
-                Have your policy number ready. If you cannot reach the insurer, call us — we can
-                lodge the claim on your authority and follow it up.
+                Have your policy number ready. Contact your insurer promptly and call us if you need
+                help understanding the next steps.
               </p>
             </div>
 
@@ -96,9 +96,8 @@ export default function Claims(): React.JSX.Element {
               <h3 className="mb-2 text-xl text-white">If a claim is refused</h3>
               <p className="mb-4 text-sm leading-relaxed text-white/85">
                 Ask for the repudiation in writing with the specific clause relied on. Most
-                disputes are settled at the insurer's complaints desk. Failing that, escalate to
-                the IRA Complaints Handling Unit or the Insurance Ombudsman — we prepare the file
-                for you.
+                disputes are handled through the insurer's complaints process. You can also contact
+                the IRA Complaints Handling Unit or the Insurance Ombudsman.
               </p>
               <Link to="/terms" className="btn btn-white btn-sm">
                 Read your rights
@@ -150,8 +149,7 @@ export default function Claims(): React.JSX.Element {
                 Not insured with us yet?
               </h2>
               <p className="mb-0 max-w-xl text-white/85">
-                Compare cover from our panel in under two minutes and choose the claims service
-                that actually answers the phone.
+                Explore the covers we offer and contact our agency for help with your options.
               </p>
             </div>
             <Link to="/quote" className="btn btn-white btn-lg shrink-0">

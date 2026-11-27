@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import Terms from "./pages/Terms";
 import About from "./pages/About";
 import Claims from "./pages/Claims";
+import Contact from "./pages/Contact";
 
 function ScrollTop(): null {
   const { pathname } = useLocation();
@@ -30,6 +31,7 @@ export default function App(): React.JSX.Element {
           <Route path="/claims" element={<Claims />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/quote" element={<Quote />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/login" element={<Login />} />

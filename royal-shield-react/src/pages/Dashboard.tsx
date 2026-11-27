@@ -130,7 +130,7 @@ export default function Dashboard() {
                 <LogoFull className="h-11" />
                 <div>
                   <b className="block text-ink">Quotation {viewing.ref}</b>
-                  <span className="text-sm text-muted">IRA Licence IB/2026/0148</span>
+
                 </div>
               </div>
               <button className="btn btn-outline btn-sm" onClick={() => setViewing(null)}>✕ Close</button>

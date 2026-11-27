@@ -38,7 +38,7 @@ export default function About(): React.JSX.Element {
             Local knowledge. Clearer insurance choices.
           </h1>
           <p className="mb-0 max-w-2xl text-lg leading-relaxed text-white/85">
-            We are a Nairobi-based insurance brokerage. Since 2015, we have helped individuals and
+            We are a Nairobi-based insurance agency helping individuals and
             businesses explore cover for the risks they face at home, on the road and at work.
           </p>
         </div>
@@ -48,8 +48,8 @@ export default function About(): React.JSX.Element {
         <div className="container-x grid items-center gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:gap-16">
           <div className="relative">
             <img
-              src="/images/advisor.jpg"
-              alt="An insurance advisor meeting with a client"
+              src="/images/about-insurance.jpeg"
+              alt="Insurance coverage icons for health, auto, travel, family and home"
               className="aspect-[4/3] w-full rounded-3xl object-cover shadow-[0_18px_50px_rgba(30,58,143,.16)]"
               loading="lazy"
             />
@@ -67,12 +67,13 @@ export default function About(): React.JSX.Element {
               Insurance should make sense before you need it.
             </h2>
             <p className="mb-4 text-muted">
-              Insurance is a promise set out in a contract. Our job as a broker is to help you
-              understand the options, compare policy terms and find an insurer whose cover fits your
-              needs and budget.
+              Insurance is a promise set out in a contract. As an agency, we help you understand
+              available options, review policy terms and connect with insurers whose cover may fit
+              your needs and budget.
             </p>
             <p className="mb-0 text-muted">
-              We work across motor, health and commercial insurance. When you need to use your
+              Our services include auto, home, life and business insurance, alongside motor, health
+              and other covers. When you need to use your
               policy, we can help you understand the process and communicate with the insurer. The
               insurer makes the final decision on cover and claims under the policy terms.
             </p>
