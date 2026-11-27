@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" role="img" aria-label="Royal Shield Brokers mark">
+  <defs>
+    <linearGradient id="rsShield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4169e1"/>
+      <stop offset="1" stop-color="#2c4ba8"/>
+    </linearGradient>
+  </defs>
+  <!-- shield body -->
+  <path d="M32 2 L60 11 V34 C60 52 47 65 32 70 C17 65 4 52 4 34 V11 Z" fill="url(#rsShield)"/>
+  <!-- inner bevel -->
+  <path d="M32 7 L55 14 V34 C55 49 44 60 32 64.5 C20 60 9 49 9 34 V14 Z" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width="1.5"/>
+  <!-- crown notch (royal) -->
+  <path d="M20 26 L24.5 32 L32 22 L39.5 32 L44 26 L42 38 H22 Z" fill="#800000"/>
+  <!-- monogram R S as base bar -->
+  <path d="M21 43 H43 V47 H21 Z" fill="#ffffff" fill-opacity=".9"/>
+</svg>
