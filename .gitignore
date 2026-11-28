@@ -2,7 +2,7 @@
 node_modules/
 
 # Build output
-royal-shield-react/dist/
+lipa-insurance/dist/
 *.tsbuildinfo
 
 # Local screenshots / capture artifacts

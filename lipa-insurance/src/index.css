@@ -11,7 +11,6 @@
   --color-maroon-soft: #f8e9ec;
   --color-gold: #d2a11f;
   --color-gold-dark: #b78508;
-  --color-gold-soft: #fff4d7;
   --color-ink: #24151a;
   --color-ink2: #514349;
   --color-muted: #786d71;
@@ -20,7 +19,6 @@
   --color-success: #0f7b6c;
   --color-danger: #b91c1c;
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
 /* Lipa Insurance brand palette — burgundy and gold */
@@ -323,7 +321,7 @@ body {
     opacity: 0.85;
   }
   .ph-amount {
-    font-family: var(--font-display);
+    font-family: var(--font-sans);
     font-size: clamp(1.7rem, 3vw, 2.3rem);
     font-weight: 600;
     line-height: 1.15;
@@ -360,7 +358,7 @@ body {
     border-top: 2px solid var(--color-royal);
     font-size: 1rem;
   }
-  .cover-table tr.grand td:last-child { color: var(--color-maroon); font-family: var(--font-display); font-size: 1.15rem; }
+  .cover-table tr.grand td:last-child { color: var(--color-maroon); font-family: var(--font-sans); font-size: 1.15rem; }
 
   .decl-box {
     background: var(--color-royal-mist);
@@ -676,9 +674,10 @@ body {
 }
 
 @layer components {
-  /* Slim utility bar — maroon, the "always visible" brand accent */
+  /* Slim utility bar — the always-visible brand accent */
   .topbar {
-    background: var(--color-maroon);
+    background: var(--color-royal-deep);
+    border-bottom: 2px solid var(--color-gold);
     color: #fff;
     font-size: 0.8rem;
   }
@@ -761,7 +760,7 @@ body {
   }
   .stat-tile b {
     display: block;
-    font-family: var(--font-display);
+    font-family: var(--font-sans);
     font-size: clamp(1.7rem, 3vw, 2.35rem);
     font-weight: 700;
     color: #fff;
@@ -832,8 +831,6 @@ body {
 
 /* Corporate homepage hero inspired by the supplied reference */
 @layer components {
-  .topbar { background: var(--color-royal-deep); border-bottom: 2px solid var(--color-gold); }
-
   .home-hero {
     position: relative;
     overflow: hidden;

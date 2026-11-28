@@ -78,7 +78,6 @@ export default function Quote() {
       coverParam === "tpft" || coverParam === "tpo" || coverParam === "comprehensive"
         ? coverParam
         : "comprehensive",
-    usage: lobParam === "motor" && coverParam === undefined ? initial.usage : initial.usage,
   }));
   const [errors, setErrors] = useState<Errors>({});
   const [result, setResult] = useState<QuoteRecord | null>(null);
@@ -739,8 +738,6 @@ function Result({
           <LogoFull className="h-12" />
           <div>
             <b className="text-ink">Quotation {rec.ref}</b>
-            <br />
-            <span className="text-[0.85rem] text-muted"></span>
           </div>
         </div>
         <div className="qd-meta">

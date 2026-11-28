@@ -3,7 +3,6 @@ export interface Cover {
   readonly icon: string;
   readonly title: string;
   readonly body: string;
-  readonly quote?: boolean;
   readonly to: string;
   readonly cta: string;
 }
@@ -19,7 +18,6 @@ export const COVERS: readonly Cover[] = [
     icon: "🚗",
     title: "Motor Insurance",
     body: "Comprehensive, Third Party Fire & Theft and Third Party Only. Third party cover is compulsory for every vehicle on a Kenyan road under Cap. 405.",
-    quote: true,
     to: "/quote?lob=motor",
     cta: "Get a motor quote",
   },
@@ -28,7 +26,6 @@ export const COVERS: readonly Cover[] = [
     icon: "🩺",
     title: "Health & Medical",
     body: "In-patient, out-patient, maternity, dental and optical for individuals, families and seniors — including NHIF/SHA top-up arrangements with the leading underwriters.",
-    quote: true,
     to: "/quote?lob=health",
     cta: "Get a health quote",
   },

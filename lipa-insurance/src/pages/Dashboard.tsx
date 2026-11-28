@@ -86,7 +86,7 @@ export default function Dashboard() {
                     </span>
                   </div>
                   <div className="text-right">
-                    <b className="block font-display text-xl text-ink">
+                    <b className="block font-sans text-xl text-ink">
                       KES {Math.round(q.pricing.total).toLocaleString()}
                     </b>
                     <span className="text-xs text-muted">annual premium</span>
@@ -130,7 +130,6 @@ export default function Dashboard() {
                 <LogoFull className="h-11" />
                 <div>
                   <b className="block text-ink">Quotation {viewing.ref}</b>
-
                 </div>
               </div>
               <button className="btn btn-outline btn-sm" onClick={() => setViewing(null)}>✕ Close</button>

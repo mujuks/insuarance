@@ -20,12 +20,12 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: royal-shield-react/package-lock.json
+          cache-dependency-path: lipa-insurance/package-lock.json
 
       - name: Install dependencies
-        working-directory: royal-shield-react
+        working-directory: lipa-insurance
         run: npm ci
 
       - name: Type-check and build
-        working-directory: royal-shield-react
+        working-directory: lipa-insurance
         run: npx tsc -b && npx vite build

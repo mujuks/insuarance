@@ -36,7 +36,3 @@ export function deleteQuote(ref: string): void {
   const all = loadQuotes().filter((q) => q.ref !== ref);
   localStorage.setItem(QUOTES_KEY, JSON.stringify(all));
 }
-
-export function getQuote(ref: string): QuoteRecord | undefined {
-  return loadQuotes().find((q) => q.ref === ref);
-}

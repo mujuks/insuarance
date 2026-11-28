@@ -52,7 +52,7 @@ export default function Terms() {
               📅 Last updated: 26 November 2026 · Version 2.1
             </div>
 
-            <div className="prose-rs">
+            <div>
               <h2 id="intro" className="mt-8 mb-3 text-2xl scroll-mt-28">1. Introduction</h2>
               <p className="mb-4">
                 Welcome to Lipa Insurance Agency ("Lipa Insurance", "we", "us"). These Terms and Conditions

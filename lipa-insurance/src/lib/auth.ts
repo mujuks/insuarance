@@ -40,7 +40,7 @@ export function getSession(): Session | null {
   }
 }
 
-export function setSession(s: Session): void {
+function setSession(s: Session): void {
   localStorage.setItem(SESSION_KEY, JSON.stringify(s));
 }
 

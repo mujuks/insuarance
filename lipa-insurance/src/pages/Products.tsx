@@ -125,7 +125,7 @@ export default function Products(): React.JSX.Element {
                 key={fact.title}
                 className="rounded-2xl border border-line bg-white p-6 transition hover:border-royal"
               >
-                <span className="mb-3 inline-block font-display text-2xl font-bold text-maroon">
+                <span className="mb-3 inline-block font-sans text-2xl font-bold text-maroon">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <h3 className="mb-2 text-lg">{fact.title}</h3>

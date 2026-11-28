@@ -66,12 +66,7 @@ const escapeHtml = (value: string): string =>
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
 
-/**
- * Builds a standalone, print-ready HTML copy of the quotation. It downloads as
- * a single file with no external assets, opens in any browser and prints or
- * saves to PDF with Ctrl/Cmd + P.
- */
-export function quoteHtml(rec: QuoteRecord): string {
+function quoteHtml(rec: QuoteRecord): string {
   const { product, cover, risk, extras } = quoteLabels(rec);
   const p = rec.pricing;
   const e = escapeHtml;

@@ -67,7 +67,7 @@ export default function Home(): React.JSX.Element {
             <span className="text-xs font-bold tracking-[0.22em] text-white/60 uppercase">
               Our mantra
             </span>
-            <p className="mb-0 font-display text-[clamp(1.25rem,2.6vw,1.9rem)] leading-tight font-bold text-white">
+            <p className="mb-0 font-sans text-[clamp(1.25rem,2.6vw,1.9rem)] leading-tight font-bold text-white">
               Clear cover options. Straightforward pricing. Support when you need it.
             </p>
           </div>
@@ -144,7 +144,7 @@ export default function Home(): React.JSX.Element {
               loading="lazy"
             />
             <div className="absolute -right-3 -bottom-5 flex flex-col items-center rounded-2xl bg-maroon px-6 py-4 text-white shadow-lg sm:-right-5">
-              <span className="font-display text-3xl font-semibold">4</span>
+              <span className="font-sans text-3xl font-semibold">4</span>
               <span className="text-center text-[0.72rem] leading-tight font-semibold tracking-wide uppercase">
                 Core service
                 <br />

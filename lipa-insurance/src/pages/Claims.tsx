@@ -38,7 +38,7 @@ export default function Claims(): React.JSX.Element {
             { big: "Free", v: "Our claim handling on every policy we place" },
           ].map((item) => (
             <div key={item.big} className="flex items-center gap-4 px-1">
-              <span className="grid h-12 w-14 shrink-0 place-items-center rounded-xl bg-maroon-soft font-display text-sm font-bold text-maroon">
+              <span className="grid h-12 w-14 shrink-0 place-items-center rounded-xl bg-maroon-soft font-sans text-sm font-bold text-maroon">
                 {item.big}
               </span>
               <span className="text-[0.88rem] leading-snug text-muted">{item.v}</span>
