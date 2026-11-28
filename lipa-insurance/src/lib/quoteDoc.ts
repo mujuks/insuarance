@@ -197,7 +197,7 @@ function quoteHtml(rec: QuoteRecord): string {
 
   <footer>
     <b>Lipa Insurance Agency</b> · Nairobi, Kenya ·
-    +254 712 661 514 · quotes@royalshield.co.ke<br />
+    +254 712 661 514 · lipainsurance.co.ke<br />
     This quotation expires on ${e(fmtDate(rec.expires))}.
   </footer>
 </div>

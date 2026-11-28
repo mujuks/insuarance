@@ -72,7 +72,7 @@ export default function Terms() {
               </p>
               <ul className="mb-4 list-disc space-y-1.5 pl-6 text-ink2">
                 <li>Registered office: Nairobi, Kenya</li>
-                <li>Telephone: +254 712 661 514 · Email: quotes@royalshield.co.ke</li>
+                <li>Telephone: +254 712 661 514 · Website: lipainsurance.co.ke</li>
                 <li>
                   Any insurance application is subject to the insurer underwriting review and acceptance.
                 </li>
@@ -153,7 +153,7 @@ export default function Terms() {
                 <li>We do not sell your personal data to third parties.</li>
                 <li>
                   You may request access to, correction of, or deletion of your personal data by writing to
-                  quotes@royalshield.co.ke.
+                  lipainsurance.co.ke.
                 </li>
                 <li>Marketing messages are sent only with your consent, and you may opt out at any time.</li>
               </ul>

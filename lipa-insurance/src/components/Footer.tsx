@@ -137,8 +137,8 @@ export default function Footer({ compact = false }: FooterProps): React.JSX.Elem
               </li>
               <li>
                 ✉️{" "}
-                <a href="mailto:quotes@royalshield.co.ke" className="hover:text-white">
-                  quotes@royalshield.co.ke
+                <a href="https://lipainsurance.co.ke" className="hover:text-white">
+                  lipainsurance.co.ke
                 </a>
               </li>
               <li>

@@ -55,7 +55,7 @@ export default function Header(): React.JSX.Element {
         <div className="container-x flex h-9 items-center justify-between gap-4">
           <div className="flex items-center gap-5">
             <span className="opacity-90">📍 Nairobi, Kenya</span>
-            <a href="mailto:quotes@royalshield.co.ke">quotes@royalshield.co.ke</a>
+            <a href="https://lipainsurance.co.ke">lipainsurance.co.ke</a>
           </div>
           <div className="flex items-center gap-5">
             <a href="tel:+254712661514">📞 +254 712 661 514</a>
